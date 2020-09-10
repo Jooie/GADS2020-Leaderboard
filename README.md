@@ -3,4 +3,4 @@ SCREENSHOTS
 
 
 [image](https://drive.google.com/uc?export=view&id=usZbTZN)
-https://imgur.com/usZbTZN
+![alt text](http://url/to/Screen Shot 2020-09-10 at 9.53.33 PM)
