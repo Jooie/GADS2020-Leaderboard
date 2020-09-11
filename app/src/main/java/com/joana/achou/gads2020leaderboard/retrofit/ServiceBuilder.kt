@@ -18,7 +18,7 @@ class ServiceBuilder {
 
 
 
-        val loggingInterceptor = HttpLoggingInterceptor()
+        val loggingInterceptor = HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY)
         val okHttpClient = OkHttpClient.Builder()
             .addInterceptor(loggingInterceptor)
             .writeTimeout(30, TimeUnit.SECONDS)
@@ -26,6 +26,7 @@ class ServiceBuilder {
             .build()
 
         fun getInstance(): ApiUrls {
+
             if (INSTANCE == null) {
                 val retrofit = Retrofit.Builder()
                     .baseUrl(BASE_URL)

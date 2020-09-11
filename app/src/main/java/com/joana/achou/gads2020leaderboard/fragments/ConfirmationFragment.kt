@@ -18,7 +18,7 @@ import retrofit2.Response
 
 
 class ConfirmationFragment : DialogFragment() {
-    private val retrofit = ServiceBuilder.getInstance()
+    private val retrofit = ServiceBuilder.getFormInstance()
 
 
     override fun onCreateView(
