@@ -1,4 +1,4 @@
 # GADS2020-Leaderboard
-SCREENSHOTS
+
 
 
